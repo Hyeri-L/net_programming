@@ -19,7 +19,9 @@ while True:
           if not data:
              break
 
-        x,form,y = data.split()
+        x,y = data.split()
+        form = data.split()
+        
         x = int(x)
         y = int(y)
 
