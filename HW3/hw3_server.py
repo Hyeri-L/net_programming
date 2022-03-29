@@ -21,7 +21,6 @@ while True:
 
         x,y = data.split()
         form = data.split()
-        
         x = int(x)
         y = int(y)
 
